@@ -7,7 +7,7 @@
  */
 
 /** The default batch size for atomic operations. */
-const BATCH_SIZE = 10;
+const BATCH_SIZE = 1000;
 
 type AtomicOperationKeys = keyof Deno.AtomicOperation;
 
